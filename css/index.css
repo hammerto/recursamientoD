@@ -1,0 +1,48 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+/* Estilo del logo de la barra de navegación */
+.navbar-logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* Estilo de la lista de menú de la barra de navegación */
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+/* Estilo de los enlaces del menú */
+.navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.navbar-menu a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Estilo del contenido principal */
+.content {
+    padding: 20px;
+}
